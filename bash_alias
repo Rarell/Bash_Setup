@@ -1,0 +1,34 @@
+# Aliases
+
+# Some cd aliases
+alias ..='cd ../'                 # Go back 1 directory level
+alias ...='cd ../../'             # Go back 2 directory levels
+alias .1='cd ../'                 # Go back 1 directory level
+alias .2='cd ../../'              # Go back 2 directory levels
+alias .3='cd ../../../'           # Go back 3 directory levels
+alias .4='cd ../../../../'        # Go back 4 directory levels
+alias .5='cd ../../../../../'     # Go back 5 directory levels
+alias .6='cd ../../../../../../'  # Go back 6 directory levels
+
+
+# Other aliases
+alias bye='exit'
+alias clr='clear'
+alias cls='clear'
+alias cdtest='cd /Volumes/TestDrive'       # External hard drive MUST be plugged in for this to work
+alias del='rm -i'                          # Make sure to prompt before deleting
+alias cp='cp -iv'                          # Make sure the cp prompts before deleting and shows copied files
+alias df='df -h'                           # Make the df command human readable by default
+alias envs='conda env list'                # Display environments
+alias hist='history 50'                    # Short hand for history command
+alias jn='juypter notebook'                # Short hand for the jupyter notebook
+alias lf='ls -F'                           # Short hand for ls -F
+alias ll='ls -FAlh'
+alias ls='/bin/ls -G'                      # Color code ls by default
+alias mv='mv -iv'                          # Make the mv command confirm before deleting and be verbose
+alias rm='/bin/rm -i'                      # Make the rm command confirm by default
+alias space='du -sh * | sort -nr - | less'
+alias spacet='du -sch * | grep -i "total"'
+alias x='chmod u+x'                        # Short hand for making something executable
+alias quit='exit'
+

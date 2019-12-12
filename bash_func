@@ -1,0 +1,10 @@
+# Functions
+
+# Prints the most frequently used commands
+
+cmdfreq() {
+	num=${1:-10}
+	history | cut -c 8- | sort | uniq -c | sort -rn | head -${num}
+	}
+
+
